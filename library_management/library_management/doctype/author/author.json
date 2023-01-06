@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-12-28 18:39:33.689106",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "auth_neme",
+  "categry",
+  "extra_notes"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "fieldname": "auth_neme",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Auth Neme"
+  },
+  {
+   "bold": 1,
+   "fieldname": "categry",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Categry",
+   "options": "Intemal\nFxtemal"
+  },
+  {
+   "bold": 1,
+   "fieldname": "extra_notes",
+   "fieldtype": "Text Editor",
+   "in_list_view": 1,
+   "label": "Extra Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-28 18:52:32.217030",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Author",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

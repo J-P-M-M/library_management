@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-12-28 18:46:57.898589",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "article_neme",
+  "content",
+  "section_break_3",
+  "author",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "article_neme",
+   "fieldtype": "Data",
+   "label": "Article Neme"
+  },
+  {
+   "fieldname": "content",
+   "fieldtype": "Long Text",
+   "label": "content"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "author",
+   "fieldtype": "Table",
+   "label": "Author",
+   "options": "Author"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Article 1",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-12-31 23:39:08.266929",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Article 1",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
